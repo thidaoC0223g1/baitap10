@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let sqr;
+    sqr = "<table border='1' >"
+    for (i = 1; i <= 10; i++) {
+       sqr = sqr + "<tr>";
+        for (j = 1; j <= 10; j++) {
+            sqr = sqr + "<td>" + i * j + "</td>";
+        }
+        sqr = sqr + "</tr>";
+    }
+    sqr= sqr + "</table>";
+    document.write(sqr);
+</script>
+</body>
+</html>
