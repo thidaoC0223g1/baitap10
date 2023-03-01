@@ -6,14 +6,13 @@
 </head>
 <body>
 <script>
-    let sum = 1;
-    let number
-    while ( number != -1)
-    {
-        number = parseInt(prompt('nhap vao '));
-        sum += number;
-    }
-    document.write('this is sum' + sum);
+   let sum=0;
+   while (true) {
+       let number= parseInt(prompt('enter number'));
+       if(number ===-1){break;}
+       sum+=number;
+   }
+   document.write("this is=" +sum);
 </script>
 
 </body>
